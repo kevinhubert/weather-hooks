@@ -3,7 +3,9 @@ import React from "react";
 const Weather = props => {
   return (
     <div>
-      <h1>This is where the weather will go</h1>
+      <h1>City: {props.city}</h1>
+      <p>Temperature: {props.temperature}</p>
+      <p>Description: {props.description}</p>
     </div>
   );
 };
